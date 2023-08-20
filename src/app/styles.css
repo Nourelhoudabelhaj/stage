@@ -1,0 +1,57 @@
+/* English weekdays */
+.my-calendar table thead tr > th:nth-child(1)::after {
+    content: "n";
+}
+
+.my-calendar table thead tr > th:nth-child(2)::after {
+    content: "n";
+}
+
+.my-calendar table thead tr > th:nth-child(3)::after {
+    content: "e";
+}
+
+.my-calendar table thead tr > th:nth-child(4)::after {
+    content: "d";
+}
+
+.my-calendar table thead tr > th:nth-child(5)::after {
+    content: "u";
+}
+
+.my-calendar table thead tr > th:nth-child(6)::after {
+    content: "i";
+}
+
+.my-calendar table thead tr > th:nth-child(7)::after {
+    content: "t";
+}
+
+/* Arabic weekdays */
+.my-calendar.arabic table thead tr > th:nth-child(1)::after {
+    content: "الأحد";
+}
+
+.my-calendar.arabic table thead tr > th:nth-child(2)::after {
+    content: "الاثنين";
+}
+
+.my-calendar.arabic table thead tr > th:nth-child(3)::after {
+    content: "الثلاثاء";
+}
+
+.my-calendar.arabic table thead tr > th:nth-child(4)::after {
+    content: "الأربعاء";
+}
+
+.my-calendar.arabic table thead tr > th:nth-child(5)::after {
+    content: "الخميس";
+}
+
+.my-calendar.arabic table thead tr > th:nth-child(6)::after {
+    content: "الجمعة";
+}
+
+.my-calendar.arabic table thead tr > th:nth-child(7)::after {
+    content: "السبت";
+}
